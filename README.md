@@ -8,15 +8,15 @@ https://YOUR-PROJECT.vercel.app  <!-- replace after deploying to Vercel -->
 
 ## Tech stack
 
-- React 19
-- Vite 6
-- React Router 7
-- Plain CSS (per-page stylesheets + global styles)
+* React 19
+* Vite 6
+* React Router 7
+* Plain CSS (per-page stylesheets + global styles)
 
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/bytespace-new.git
+git clone https://github.com/Showri08/bytespace-new.git
 cd bytespace-new
 npm install
 npm run dev
@@ -28,17 +28,17 @@ Production build: `npm run build` (output in `dist/`), preview with `npm run pre
 
 ## Routes
 
-| Path | Page |
-| --- | --- |
-| `/` | Landing page |
-| `/login` | Login (bonus) |
-| `/register` | Sign up (bonus) |
-| `/search` | Course search |
-| `/course/:slug` | Course details: About |
-| `/course/:slug/lessons` | Course details: Lessons |
-| `/course/:slug/reviews` | Course details: Reviews |
-| `/creator` | Creator profile |
-| `*` | 404 |
+|Path|Page|
+|-|-|
+|`/`|Landing page|
+|`/login`|Login (bonus)|
+|`/register`|Sign up (bonus)|
+|`/search`|Course search|
+|`/course/:slug`|Course details: About|
+|`/course/:slug/lessons`|Course details: Lessons|
+|`/course/:slug/reviews`|Course details: Reviews|
+|`/creator`|Creator profile|
+|`\*`|404|
 
 ## Project structure
 
@@ -54,3 +54,4 @@ public/assets/  Images and shapes
 ## Deployment
 
 Deployed on Vercel. `vercel.json` rewrites all routes to `index.html` so React Router works on direct links and refreshes.
+
